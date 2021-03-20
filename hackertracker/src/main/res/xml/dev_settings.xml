@@ -1,0 +1,16 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:key="preferenceTheme"
+    tools:background="@color/background">
+
+    <androidx.preference.PreferenceCategory android:title="Developer">
+
+        <Preference android:title="Firebase UID"
+            android:key="user_uid"
+            android:summary="..."/>
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
